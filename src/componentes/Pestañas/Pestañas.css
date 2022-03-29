@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border: 2px solid black;
+    background-color: white;
+    height: 50px;
+    width: 80px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.resultado{
+    border: 2px solid gray;
+    margin-top: 10px;
+    width: 900px;
+    margin-left: 280px;
+}
